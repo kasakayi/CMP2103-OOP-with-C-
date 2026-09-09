@@ -16,7 +16,7 @@
 #include <iostream>
 double get_weight(){
     double weight;
-    std::cout << "Enter weight in pounds? (Oz)\n-> ";
+    std::cout << "Enter weight in pounds(lb):\n-> ";
     std::cin >> weight;
     weight *= 0.45359237;
     return weight;
@@ -24,7 +24,7 @@ double get_weight(){
 
 double get_height(){
     double height;
-    std::cout << "Enter height in inches? (In)\n-> ";
+    std::cout << "Enter height in inches(In):\n-> ";
     std::cin >> height;
     height *= 0.0254;
     return height;
